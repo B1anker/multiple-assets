@@ -15,7 +15,7 @@ const config = {
   mode: "development",
   devtool: false,
   entry: {
-    main: "./src/index.js",
+    main: "./src/index.jsx",
   },
   builtins: {
     html: [
