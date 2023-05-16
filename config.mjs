@@ -27,7 +27,7 @@ const config = {
       {
 	test: /\.webp$/i,
 	type: 'asset/resource'
-       }
+      }
     ],
   },
   output: {
