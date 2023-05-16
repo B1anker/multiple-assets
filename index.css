@@ -1,0 +1,17 @@
+html {
+    font-size: 16px;
+    font-family: 'Roboto', -apple-system, 'Oxygen', 'Ubuntu', BlinkMacSystemFont, 'Segoe UI',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 56px white inset !important;
+}
