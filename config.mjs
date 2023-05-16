@@ -24,6 +24,10 @@ const config = {
         resourceQuery: /raw/,
         type: "asset/source",
       },
+      {
+				test: /\.webp$/i,
+				type: 'asset/resource'
+			}
     ],
   },
   output: {
