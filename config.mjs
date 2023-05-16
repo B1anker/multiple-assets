@@ -17,6 +17,13 @@ const config = {
   entry: {
     main: "./src/index.js",
   },
+  builtins: {
+    html: [
+      {
+        template: "./public/index.html"
+      }
+    ]
+  },
   module: {
     rules: [
       {
@@ -35,12 +42,7 @@ const config = {
       ? path.resolve(__dirname, "webpack-dist")
       : path.resolve(__dirname, "rspack-dist"),
     filename: "main.js",
-  },
-  resolve: {
-    alias: {
-      "./answer": path.resolve(__dirname, "./src/answer.js?raw"),
-    },
-  },
+  }
 };
 
 export default config;
