@@ -2,10 +2,10 @@
   "name": "rspack-repro",
   "version": "1.0.0",
   "scripts": {
-    "build:rspack": "rspack serve"
+    "dev": "rspack serve"
   },
   "dependencies": {
-    "@rspack/cli": "0.1.10",
+    "@rspack/cli": "^0.1.12",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
