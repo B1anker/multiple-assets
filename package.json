@@ -2,7 +2,7 @@
   "name": "rspack-repro",
   "version": "1.0.0",
   "scripts": {
-    "dev": "rspack serve"
+    "build": "rspack build"
   },
   "dependencies": {
     "@rspack/cli": "^0.1.12",

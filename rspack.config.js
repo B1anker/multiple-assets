@@ -3,13 +3,14 @@
  */
 module.exports = {
   context: __dirname,
-  mode: "development",
-  devtool: false,
+  mode: "production",
+  devtool: "source-map",
   entry: {
     main: "./src/index.tsx",
   },
   output: {
-    filename: "[name].[chunkhash][ext]"
+    filename: "[name].12345.js",
+    sourceMapFilename: "sourcemap/[name].map"
   },
   builtins: {
     html: [
